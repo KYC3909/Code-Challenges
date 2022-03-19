@@ -21,8 +21,8 @@ func sockMerchant(n: Int, ar: [Int]) -> Int {
     return count
 }
 
-print("Count:\(sockMerchant(n: 9, ar: [10, 20, 20, 10, 10, 30, 50, 10, 20]))")
+print("Output:\(sockMerchant(n: 9, ar: [10, 20, 20, 10, 10, 30, 50, 10, 20]))")
 print("\n\n")
-print("Count:\(sockMerchant(n: 10, ar: [1 ,1 ,3 ,1 ,2,1,3,3,3,3]))")
+print("Output:\(sockMerchant(n: 10, ar: [1 ,1 ,3 ,1 ,2,1,3,3,3,3]))")
 print("\n\n")
-print("Count:\(sockMerchant(n: 15, ar: [6 ,5 ,2 ,3 ,5 ,2 ,2 ,1 ,1 ,5 ,1 ,3 ,3 ,3 ,5]))")
+print("Output:\(sockMerchant(n: 15, ar: [6 ,5 ,2 ,3 ,5 ,2 ,2 ,1 ,1 ,5 ,1 ,3 ,3 ,3 ,5]))")
