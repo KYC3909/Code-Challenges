@@ -7,7 +7,7 @@
 
 import Foundation
 
-func sockMerchant1(n: Int, ar: [Int]) -> Int {
+func sockMerchant(n: Int, ar: [Int]) -> Int {
     var array = [Int]()
     var count = 0
     

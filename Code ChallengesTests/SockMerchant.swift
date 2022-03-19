@@ -16,8 +16,8 @@ class SockMerchant: XCTestCase {
         let array = [10, 20, 20, 10, 10, 30, 50, 10, 20]
         let expectedOutput = 3
         
-        XCTAssertTrue(sockMerchant1(n: n, ar: array) == expectedOutput)
-        XCTAssertFalse(sockMerchant1(n: n, ar: array) != expectedOutput)
+        XCTAssertTrue(sockMerchant(n: n, ar: array) == expectedOutput)
+        XCTAssertFalse(sockMerchant(n: n, ar: array) != expectedOutput)
     }
 
     func testCase2() throws {
@@ -26,8 +26,8 @@ class SockMerchant: XCTestCase {
         let array = [1 ,1 ,3 ,1 ,2,1,3,3,3,3]
         let expectedOutput = 4
         
-        XCTAssertTrue(sockMerchant1(n: n, ar: array) == expectedOutput)
-        XCTAssertFalse(sockMerchant1(n: n, ar: array) != expectedOutput)
+        XCTAssertTrue(sockMerchant(n: n, ar: array) == expectedOutput)
+        XCTAssertFalse(sockMerchant(n: n, ar: array) != expectedOutput)
     }
 
     func testCase3() throws {
@@ -36,8 +36,8 @@ class SockMerchant: XCTestCase {
         let array = [6 ,5 ,2 ,3 ,5 ,2 ,2 ,1 ,1 ,5 ,1 ,3 ,3 ,3 ,5]
         let expectedOutput = 6
         
-        XCTAssertTrue(sockMerchant1(n: n, ar: array) == expectedOutput)
-        XCTAssertFalse(sockMerchant1(n: n, ar: array) != expectedOutput)
+        XCTAssertTrue(sockMerchant(n: n, ar: array) == expectedOutput)
+        XCTAssertFalse(sockMerchant(n: n, ar: array) != expectedOutput)
     }
 
     func testPerformanceExample() throws {
