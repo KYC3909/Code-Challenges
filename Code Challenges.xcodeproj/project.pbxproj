@@ -21,6 +21,11 @@
 		1E05B65A27E5B630002823B4 /* CountingValleysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B65927E5B630002823B4 /* CountingValleysTests.swift */; };
 		1E05B66227E5B788002823B4 /* Jumping On Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B66127E5B788002823B4 /* Jumping On Clouds.swift */; };
 		1E05B67127E5C491002823B4 /* JumpingOnCloudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B67027E5C491002823B4 /* JumpingOnCloudsTests.swift */; };
+		1E05B67627E82536002823B4 /* Repeated String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B67527E82536002823B4 /* Repeated String.swift */; };
+		1E60643427E8428E003F68A4 /* Hourglass Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60643327E8428E003F68A4 /* Hourglass Sum.swift */; };
+		1E60643927E84566003F68A4 /* Left Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60643827E84566003F68A4 /* Left Rotation.swift */; };
+		1E83C1EF27E829D900EDFE0F /* RepeatedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */; };
+		1EBD1D3B27E86AD30011D14E /* LeftRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +67,15 @@
 		1E05B65527E5B10D002823B4 /* Counting Valleys.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Counting Valleys.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1E05B65927E5B630002823B4 /* CountingValleysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTests.swift; sourceTree = "<group>"; };
 		1E05B66127E5B788002823B4 /* Jumping On Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jumping On Clouds.swift"; sourceTree = "<group>"; };
-		1E05B66927E5B7AB002823B4 /* Jumping On Clouds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Jumping On Clouds.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1E05B67027E5C491002823B4 /* JumpingOnCloudsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnCloudsTests.swift; sourceTree = "<group>"; };
+		1E05B67527E82536002823B4 /* Repeated String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repeated String.swift"; sourceTree = "<group>"; };
+		1E60641E27E84218003F68A4 /* Jumping On Clouds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Jumping On Clouds.playground"; sourceTree = "<group>"; };
+		1E60643327E8428E003F68A4 /* Hourglass Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hourglass Sum.swift"; sourceTree = "<group>"; };
+		1E60643827E84566003F68A4 /* Left Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Left Rotation.swift"; sourceTree = "<group>"; };
+		1E60644027E869D0003F68A4 /* Left Rotation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Left Rotation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedStringTests.swift; sourceTree = "<group>"; };
+		1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotationTests.swift; sourceTree = "<group>"; };
+		1EE4C7C727E8256C00FCB437 /* Repeated String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Repeated String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				1E05B61227E5A904002823B4 /* Code_ChallengesTests.swift */,
-				1E05B63E27E5AA57002823B4 /* SockMerchantTests.swift */,
-				1E05B65927E5B630002823B4 /* CountingValleysTests.swift */,
-				1E05B67027E5C491002823B4 /* JumpingOnCloudsTests.swift */,
+				1E60642A27E84245003F68A4 /* Interview Preparations */,
 				1E05B61427E5A904002823B4 /* Info.plist */,
 			);
 			path = "Code ChallengesTests";
@@ -174,14 +184,71 @@
 		1E05B63127E5A933002823B4 /* Hacker Rank */ = {
 			isa = PBXGroup;
 			children = (
+				1E60642327E84229003F68A4 /* Interview Preparations */,
+			);
+			path = "Hacker Rank";
+			sourceTree = "<group>";
+		};
+		1E60642227E8421E003F68A4 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				1E60643327E8428E003F68A4 /* Hourglass Sum.swift */,
+				1E60643827E84566003F68A4 /* Left Rotation.swift */,
+				1E60644027E869D0003F68A4 /* Left Rotation.playground */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		1E60642327E84229003F68A4 /* Interview Preparations */ = {
+			isa = PBXGroup;
+			children = (
+				1E83C1F327E841CF00EDFE0F /* Warmup Challenges */,
+				1E60642227E8421E003F68A4 /* Arrays */,
+			);
+			path = "Interview Preparations";
+			sourceTree = "<group>";
+		};
+		1E60642A27E84245003F68A4 /* Interview Preparations */ = {
+			isa = PBXGroup;
+			children = (
+				1E60642B27E84249003F68A4 /* Warmup Challenges */,
+				1E60642F27E84265003F68A4 /* Arrays */,
+			);
+			path = "Interview Preparations";
+			sourceTree = "<group>";
+		};
+		1E60642B27E84249003F68A4 /* Warmup Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				1E05B63E27E5AA57002823B4 /* SockMerchantTests.swift */,
+				1E05B65927E5B630002823B4 /* CountingValleysTests.swift */,
+				1E05B67027E5C491002823B4 /* JumpingOnCloudsTests.swift */,
+				1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */,
+			);
+			path = "Warmup Challenges";
+			sourceTree = "<group>";
+		};
+		1E60642F27E84265003F68A4 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		1E83C1F327E841CF00EDFE0F /* Warmup Challenges */ = {
+			isa = PBXGroup;
+			children = (
 				1E05B63227E5A956002823B4 /* Sock Merchant.swift */,
 				1E05B63A27E5A979002823B4 /* Sock Merchant.playground */,
 				1E05B64D27E5AFAD002823B4 /* Counting Valleys.swift */,
 				1E05B65527E5B10D002823B4 /* Counting Valleys.playground */,
 				1E05B66127E5B788002823B4 /* Jumping On Clouds.swift */,
-				1E05B66927E5B7AB002823B4 /* Jumping On Clouds.playground */,
+				1E60641E27E84218003F68A4 /* Jumping On Clouds.playground */,
+				1E05B67527E82536002823B4 /* Repeated String.swift */,
+				1EE4C7C727E8256C00FCB437 /* Repeated String.playground */,
 			);
-			path = "Hacker Rank";
+			path = "Warmup Challenges";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,10 +381,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E60643427E8428E003F68A4 /* Hourglass Sum.swift in Sources */,
+				1E60643927E84566003F68A4 /* Left Rotation.swift in Sources */,
 				1E05B63327E5A956002823B4 /* Sock Merchant.swift in Sources */,
 				1E05B60027E5A902002823B4 /* ViewController.swift in Sources */,
 				1E05B64E27E5AFAD002823B4 /* Counting Valleys.swift in Sources */,
 				1E05B5FC27E5A902002823B4 /* AppDelegate.swift in Sources */,
+				1E05B67627E82536002823B4 /* Repeated String.swift in Sources */,
 				1E05B5FE27E5A902002823B4 /* SceneDelegate.swift in Sources */,
 				1E05B66227E5B788002823B4 /* Jumping On Clouds.swift in Sources */,
 			);
@@ -327,6 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBD1D3B27E86AD30011D14E /* LeftRotationTests.swift in Sources */,
+				1E83C1EF27E829D900EDFE0F /* RepeatedStringTests.swift in Sources */,
 				1E05B61327E5A904002823B4 /* Code_ChallengesTests.swift in Sources */,
 				1E05B67127E5C491002823B4 /* JumpingOnCloudsTests.swift in Sources */,
 				1E05B63F27E5AA57002823B4 /* SockMerchantTests.swift in Sources */,
