@@ -24,8 +24,13 @@
 		1E05B67627E82536002823B4 /* Repeated String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B67527E82536002823B4 /* Repeated String.swift */; };
 		1E60643427E8428E003F68A4 /* Hourglass Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60643327E8428E003F68A4 /* Hourglass Sum.swift */; };
 		1E60643927E84566003F68A4 /* Left Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60643827E84566003F68A4 /* Left Rotation.swift */; };
+		1E65B92027EC4E120079C306 /* Array Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65B91F27EC4E120079C306 /* Array Manipulation.swift */; };
+		1E65B92927EC4E560079C306 /* ArrayManipulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65B92827EC4E560079C306 /* ArrayManipulationTests.swift */; };
 		1E83C1EF27E829D900EDFE0F /* RepeatedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */; };
 		1EBD1D3B27E86AD30011D14E /* LeftRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */; };
+		1EE2C74C27EAE2120088A516 /* Minimum Bribes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2C74B27EAE2120088A516 /* Minimum Bribes.swift */; };
+		1EE2C75527EAF88F0088A516 /* Minimum Swaps 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2C75427EAF88F0088A516 /* Minimum Swaps 2.swift */; };
+		1EF1BB4527EB01690020B315 /* MinimumSwaps2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1BB4427EB01690020B315 /* MinimumSwaps2Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +78,17 @@
 		1E60643327E8428E003F68A4 /* Hourglass Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hourglass Sum.swift"; sourceTree = "<group>"; };
 		1E60643827E84566003F68A4 /* Left Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Left Rotation.swift"; sourceTree = "<group>"; };
 		1E60644027E869D0003F68A4 /* Left Rotation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Left Rotation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E65B91F27EC4E120079C306 /* Array Manipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array Manipulation.swift"; sourceTree = "<group>"; };
+		1E65B92427EC4E210079C306 /* Array Manipulation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Array Manipulation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E65B92827EC4E560079C306 /* ArrayManipulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulationTests.swift; sourceTree = "<group>"; };
 		1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedStringTests.swift; sourceTree = "<group>"; };
 		1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotationTests.swift; sourceTree = "<group>"; };
+		1EE2C74B27EAE2120088A516 /* Minimum Bribes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Bribes.swift"; sourceTree = "<group>"; };
+		1EE2C75027EAE5330088A516 /* Minimum Bribes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Bribes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1EE2C75427EAF88F0088A516 /* Minimum Swaps 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Swaps 2.swift"; sourceTree = "<group>"; };
+		1EE2C75927EAF8A80088A516 /* Minimum Swaps 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Swaps 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1EE4C7C727E8256C00FCB437 /* Repeated String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Repeated String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1EF1BB4427EB01690020B315 /* MinimumSwaps2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSwaps2Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +208,12 @@
 				1E60643327E8428E003F68A4 /* Hourglass Sum.swift */,
 				1E60643827E84566003F68A4 /* Left Rotation.swift */,
 				1E60644027E869D0003F68A4 /* Left Rotation.playground */,
+				1EE2C74B27EAE2120088A516 /* Minimum Bribes.swift */,
+				1EE2C75027EAE5330088A516 /* Minimum Bribes.playground */,
+				1EE2C75427EAF88F0088A516 /* Minimum Swaps 2.swift */,
+				1EE2C75927EAF8A80088A516 /* Minimum Swaps 2.playground */,
+				1E65B91F27EC4E120079C306 /* Array Manipulation.swift */,
+				1E65B92427EC4E210079C306 /* Array Manipulation.playground */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -232,6 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */,
+				1EF1BB4427EB01690020B315 /* MinimumSwaps2Tests.swift */,
+				1E65B92827EC4E560079C306 /* ArrayManipulationTests.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -387,9 +408,12 @@
 				1E05B60027E5A902002823B4 /* ViewController.swift in Sources */,
 				1E05B64E27E5AFAD002823B4 /* Counting Valleys.swift in Sources */,
 				1E05B5FC27E5A902002823B4 /* AppDelegate.swift in Sources */,
+				1EE2C75527EAF88F0088A516 /* Minimum Swaps 2.swift in Sources */,
 				1E05B67627E82536002823B4 /* Repeated String.swift in Sources */,
 				1E05B5FE27E5A902002823B4 /* SceneDelegate.swift in Sources */,
+				1EE2C74C27EAE2120088A516 /* Minimum Bribes.swift in Sources */,
 				1E05B66227E5B788002823B4 /* Jumping On Clouds.swift in Sources */,
+				1E65B92027EC4E120079C306 /* Array Manipulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +423,12 @@
 			files = (
 				1EBD1D3B27E86AD30011D14E /* LeftRotationTests.swift in Sources */,
 				1E83C1EF27E829D900EDFE0F /* RepeatedStringTests.swift in Sources */,
+				1E65B92927EC4E560079C306 /* ArrayManipulationTests.swift in Sources */,
 				1E05B61327E5A904002823B4 /* Code_ChallengesTests.swift in Sources */,
 				1E05B67127E5C491002823B4 /* JumpingOnCloudsTests.swift in Sources */,
 				1E05B63F27E5AA57002823B4 /* SockMerchantTests.swift in Sources */,
 				1E05B65A27E5B630002823B4 /* CountingValleysTests.swift in Sources */,
+				1EF1BB4527EB01690020B315 /* MinimumSwaps2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
