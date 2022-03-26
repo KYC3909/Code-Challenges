@@ -22,6 +22,8 @@
 		1E05B66227E5B788002823B4 /* Jumping On Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B66127E5B788002823B4 /* Jumping On Clouds.swift */; };
 		1E05B67127E5C491002823B4 /* JumpingOnCloudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B67027E5C491002823B4 /* JumpingOnCloudsTests.swift */; };
 		1E05B67627E82536002823B4 /* Repeated String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05B67527E82536002823B4 /* Repeated String.swift */; };
+		1E07B81227EECF770020060D /* Two Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07B81127EECF770020060D /* Two Strings.swift */; };
+		1E07B81C27EECFA80020060D /* TwoStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07B81B27EECFA80020060D /* TwoStringsTests.swift */; };
 		1E60643427E8428E003F68A4 /* Hourglass Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60643327E8428E003F68A4 /* Hourglass Sum.swift */; };
 		1E60643927E84566003F68A4 /* Left Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60643827E84566003F68A4 /* Left Rotation.swift */; };
 		1E65B92027EC4E120079C306 /* Array Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65B91F27EC4E120079C306 /* Array Manipulation.swift */; };
@@ -74,6 +76,9 @@
 		1E05B66127E5B788002823B4 /* Jumping On Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jumping On Clouds.swift"; sourceTree = "<group>"; };
 		1E05B67027E5C491002823B4 /* JumpingOnCloudsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnCloudsTests.swift; sourceTree = "<group>"; };
 		1E05B67527E82536002823B4 /* Repeated String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repeated String.swift"; sourceTree = "<group>"; };
+		1E07B81127EECF770020060D /* Two Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Strings.swift"; sourceTree = "<group>"; };
+		1E07B81627EECF870020060D /* Two Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Strings.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E07B81B27EECFA80020060D /* TwoStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStringsTests.swift; sourceTree = "<group>"; };
 		1E60641E27E84218003F68A4 /* Jumping On Clouds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Jumping On Clouds.playground"; sourceTree = "<group>"; };
 		1E60643327E8428E003F68A4 /* Hourglass Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hourglass Sum.swift"; sourceTree = "<group>"; };
 		1E60643827E84566003F68A4 /* Left Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Left Rotation.swift"; sourceTree = "<group>"; };
@@ -202,6 +207,23 @@
 			path = "Hacker Rank";
 			sourceTree = "<group>";
 		};
+		1E07B81027EECF410020060D /* Dictionaries Hashmaps */ = {
+			isa = PBXGroup;
+			children = (
+				1E07B81127EECF770020060D /* Two Strings.swift */,
+				1E07B81627EECF870020060D /* Two Strings.playground */,
+			);
+			path = "Dictionaries Hashmaps";
+			sourceTree = "<group>";
+		};
+		1E07B81A27EECF8F0020060D /* Dictionaries Hashmaps */ = {
+			isa = PBXGroup;
+			children = (
+				1E07B81B27EECFA80020060D /* TwoStringsTests.swift */,
+			);
+			path = "Dictionaries Hashmaps";
+			sourceTree = "<group>";
+		};
 		1E60642227E8421E003F68A4 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +245,7 @@
 			children = (
 				1E83C1F327E841CF00EDFE0F /* Warmup Challenges */,
 				1E60642227E8421E003F68A4 /* Arrays */,
+				1E07B81027EECF410020060D /* Dictionaries Hashmaps */,
 			);
 			path = "Interview Preparations";
 			sourceTree = "<group>";
@@ -232,6 +255,7 @@
 			children = (
 				1E60642B27E84249003F68A4 /* Warmup Challenges */,
 				1E60642F27E84265003F68A4 /* Arrays */,
+				1E07B81A27EECF8F0020060D /* Dictionaries Hashmaps */,
 			);
 			path = "Interview Preparations";
 			sourceTree = "<group>";
@@ -402,6 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E07B81227EECF770020060D /* Two Strings.swift in Sources */,
 				1E60643427E8428E003F68A4 /* Hourglass Sum.swift in Sources */,
 				1E60643927E84566003F68A4 /* Left Rotation.swift in Sources */,
 				1E05B63327E5A956002823B4 /* Sock Merchant.swift in Sources */,
@@ -427,6 +452,7 @@
 				1E05B61327E5A904002823B4 /* Code_ChallengesTests.swift in Sources */,
 				1E05B67127E5C491002823B4 /* JumpingOnCloudsTests.swift in Sources */,
 				1E05B63F27E5AA57002823B4 /* SockMerchantTests.swift in Sources */,
+				1E07B81C27EECFA80020060D /* TwoStringsTests.swift in Sources */,
 				1E05B65A27E5B630002823B4 /* CountingValleysTests.swift in Sources */,
 				1EF1BB4527EB01690020B315 /* MinimumSwaps2Tests.swift in Sources */,
 			);
