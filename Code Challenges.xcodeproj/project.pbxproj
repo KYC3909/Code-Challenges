@@ -29,6 +29,8 @@
 		1E65B92027EC4E120079C306 /* Array Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65B91F27EC4E120079C306 /* Array Manipulation.swift */; };
 		1E65B92927EC4E560079C306 /* ArrayManipulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65B92827EC4E560079C306 /* ArrayManipulationTests.swift */; };
 		1E83C1EF27E829D900EDFE0F /* RepeatedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */; };
+		1E8FC58927F1D845008C2DE0 /* Sherlock and Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FC58827F1D845008C2DE0 /* Sherlock and Anagrams.swift */; };
+		1E8FC59227F2C608008C2DE0 /* Count Triplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FC59127F2C608008C2DE0 /* Count Triplets.swift */; };
 		1EBD1D3B27E86AD30011D14E /* LeftRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */; };
 		1EE2C74C27EAE2120088A516 /* Minimum Bribes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2C74B27EAE2120088A516 /* Minimum Bribes.swift */; };
 		1EE2C75527EAF88F0088A516 /* Minimum Swaps 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2C75427EAF88F0088A516 /* Minimum Swaps 2.swift */; };
@@ -87,6 +89,10 @@
 		1E65B92427EC4E210079C306 /* Array Manipulation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Array Manipulation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1E65B92827EC4E560079C306 /* ArrayManipulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulationTests.swift; sourceTree = "<group>"; };
 		1E83C1EE27E829D900EDFE0F /* RepeatedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedStringTests.swift; sourceTree = "<group>"; };
+		1E8FC58827F1D845008C2DE0 /* Sherlock and Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sherlock and Anagrams.swift"; sourceTree = "<group>"; };
+		1E8FC58D27F1D8CF008C2DE0 /* Sherlock and Anagrams.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sherlock and Anagrams.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E8FC59127F2C608008C2DE0 /* Count Triplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Triplets.swift"; sourceTree = "<group>"; };
+		1E8FC59627F2C625008C2DE0 /* Count Triplets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Count Triplets.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1EBD1D3A27E86AD30011D14E /* LeftRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotationTests.swift; sourceTree = "<group>"; };
 		1EE2C74B27EAE2120088A516 /* Minimum Bribes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Bribes.swift"; sourceTree = "<group>"; };
 		1EE2C75027EAE5330088A516 /* Minimum Bribes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Bribes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -212,6 +218,10 @@
 			children = (
 				1E07B81127EECF770020060D /* Two Strings.swift */,
 				1E07B81627EECF870020060D /* Two Strings.playground */,
+				1E8FC58827F1D845008C2DE0 /* Sherlock and Anagrams.swift */,
+				1E8FC58D27F1D8CF008C2DE0 /* Sherlock and Anagrams.playground */,
+				1E8FC59127F2C608008C2DE0 /* Count Triplets.swift */,
+				1E8FC59627F2C625008C2DE0 /* Count Triplets.playground */,
 			);
 			path = "Dictionaries Hashmaps";
 			sourceTree = "<group>";
@@ -430,6 +440,7 @@
 				1E60643427E8428E003F68A4 /* Hourglass Sum.swift in Sources */,
 				1E60643927E84566003F68A4 /* Left Rotation.swift in Sources */,
 				1E05B63327E5A956002823B4 /* Sock Merchant.swift in Sources */,
+				1E8FC58927F1D845008C2DE0 /* Sherlock and Anagrams.swift in Sources */,
 				1E05B60027E5A902002823B4 /* ViewController.swift in Sources */,
 				1E05B64E27E5AFAD002823B4 /* Counting Valleys.swift in Sources */,
 				1E05B5FC27E5A902002823B4 /* AppDelegate.swift in Sources */,
@@ -439,6 +450,7 @@
 				1EE2C74C27EAE2120088A516 /* Minimum Bribes.swift in Sources */,
 				1E05B66227E5B788002823B4 /* Jumping On Clouds.swift in Sources */,
 				1E65B92027EC4E120079C306 /* Array Manipulation.swift in Sources */,
+				1E8FC59227F2C608008C2DE0 /* Count Triplets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
