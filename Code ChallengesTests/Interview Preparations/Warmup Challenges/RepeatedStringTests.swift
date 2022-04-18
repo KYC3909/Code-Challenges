@@ -25,6 +25,7 @@ class RepeatedStringTests: XCTestCase {
 
         XCTAssertTrue(repeatedString(s: s, n: n) == expectedOutput)
         XCTAssertFalse(repeatedString(s: s, n: n) != expectedOutput)
+        XCTAssertEqual(repeatedString(s: s, n: n), expectedOutput)
     }
 
     func testCase2() throws {
@@ -34,6 +35,7 @@ class RepeatedStringTests: XCTestCase {
 
         XCTAssertTrue(repeatedString(s: s, n: n) == expectedOutput)
         XCTAssertFalse(repeatedString(s: s, n: n) != expectedOutput)
+        XCTAssertEqual(repeatedString(s: s, n: n), expectedOutput)
     }
 
     func testCase3() throws {
@@ -43,6 +45,7 @@ class RepeatedStringTests: XCTestCase {
 
         XCTAssertTrue(repeatedString(s: s, n: n) == expectedOutput)
         XCTAssertFalse(repeatedString(s: s, n: n) != expectedOutput)
+        XCTAssertEqual(repeatedString(s: s, n: n), expectedOutput)
     }
 
     func testCase4() throws {
@@ -52,6 +55,7 @@ class RepeatedStringTests: XCTestCase {
 
         XCTAssertTrue(repeatedString(s: s, n: n) == expectedOutput)
         XCTAssertFalse(repeatedString(s: s, n: n) != expectedOutput)
+        XCTAssertEqual(repeatedString(s: s, n: n), expectedOutput)
     }
 
     func testPerformanceExample() throws {

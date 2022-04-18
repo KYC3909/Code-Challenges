@@ -26,6 +26,7 @@ class ArrayManipulationTests: XCTestCase {
         
         XCTAssertTrue(arrayManipulation(n: n, queries: q) == expectedOutput)
         XCTAssertFalse(arrayManipulation(n: n, queries: q) != expectedOutput)
+        XCTAssertEqual(arrayManipulation(n: n, queries: q), expectedOutput)
     }
 
     func testCase2() throws {
@@ -36,6 +37,7 @@ class ArrayManipulationTests: XCTestCase {
         
         XCTAssertTrue(arrayManipulation(n: n, queries: q) == expectedOutput)
         XCTAssertFalse(arrayManipulation(n: n, queries: q) != expectedOutput)
+        XCTAssertEqual(arrayManipulation(n: n, queries: q), expectedOutput)
     }
 
     func testPerformanceExample() throws {

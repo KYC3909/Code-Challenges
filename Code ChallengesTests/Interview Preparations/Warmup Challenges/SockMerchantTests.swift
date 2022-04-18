@@ -18,6 +18,7 @@ class SockMerchant: XCTestCase {
         
         XCTAssertTrue(sockMerchant(n: n, ar: array) == expectedOutput)
         XCTAssertFalse(sockMerchant(n: n, ar: array) != expectedOutput)
+        XCTAssertEqual(sockMerchant(n: n, ar: array), expectedOutput)
     }
 
     func testCase2() throws {
@@ -28,6 +29,7 @@ class SockMerchant: XCTestCase {
         
         XCTAssertTrue(sockMerchant(n: n, ar: array) == expectedOutput)
         XCTAssertFalse(sockMerchant(n: n, ar: array) != expectedOutput)
+        XCTAssertEqual(sockMerchant(n: n, ar: array), expectedOutput)
     }
 
     func testCase3() throws {
@@ -38,6 +40,7 @@ class SockMerchant: XCTestCase {
         
         XCTAssertTrue(sockMerchant(n: n, ar: array) == expectedOutput)
         XCTAssertFalse(sockMerchant(n: n, ar: array) != expectedOutput)
+        XCTAssertEqual(sockMerchant(n: n, ar: array), expectedOutput)
     }
 
     func testPerformanceExample() throws {

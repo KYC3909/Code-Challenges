@@ -24,6 +24,7 @@ class CountingValleysTests: XCTestCase {
         
         XCTAssertTrue(countingValleys(steps: path.count, path: path) == expectedOutput)
         XCTAssertFalse(countingValleys(steps: path.count, path: path) != expectedOutput)
+        XCTAssertEqual(countingValleys(steps: path.count, path: path), expectedOutput)
     }
 
     func testCase2() throws {
@@ -32,6 +33,7 @@ class CountingValleysTests: XCTestCase {
         
         XCTAssertTrue(countingValleys(steps: path.count, path: path) == expectedOutput)
         XCTAssertFalse(countingValleys(steps: path.count, path: path) != expectedOutput)
+        XCTAssertEqual(countingValleys(steps: path.count, path: path), expectedOutput)
     }
 
     func testCase3() throws {
@@ -40,6 +42,7 @@ class CountingValleysTests: XCTestCase {
         
         XCTAssertTrue(countingValleys(steps: path.count, path: path) == expectedOutput)
         XCTAssertFalse(countingValleys(steps: path.count, path: path) != expectedOutput)
+        XCTAssertEqual(countingValleys(steps: path.count, path: path), expectedOutput)
     }
 
     func testCase4() throws {
@@ -48,6 +51,7 @@ class CountingValleysTests: XCTestCase {
         
         XCTAssertTrue(countingValleys(steps: path.count, path: path) == expectedOutput)
         XCTAssertFalse(countingValleys(steps: path.count, path: path) != expectedOutput)
+        XCTAssertEqual(countingValleys(steps: path.count, path: path), expectedOutput)
     }
 
     func testPerformanceExample() throws {

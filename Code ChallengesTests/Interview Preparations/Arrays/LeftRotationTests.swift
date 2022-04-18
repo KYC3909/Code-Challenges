@@ -26,6 +26,7 @@ class LeftRotationTests: XCTestCase {
         
         XCTAssertTrue(rotLeft(a: a, d: d) == expectedOutput)
         XCTAssertFalse(rotLeft(a: a, d: d) != expectedOutput)
+        XCTAssertEqual(rotLeft(a: a, d: d), expectedOutput)
     }
 
     func testCase2() throws {
@@ -36,6 +37,7 @@ class LeftRotationTests: XCTestCase {
         
         XCTAssertTrue(rotLeft(a: a, d: d) == expectedOutput)
         XCTAssertFalse(rotLeft(a: a, d: d) != expectedOutput)
+        XCTAssertEqual(rotLeft(a: a, d: d), expectedOutput)
     }
 
     func testCase3() throws {
@@ -46,6 +48,7 @@ class LeftRotationTests: XCTestCase {
         
         XCTAssertTrue(rotLeft(a: a, d: d) == expectedOutput)
         XCTAssertFalse(rotLeft(a: a, d: d) != expectedOutput)
+        XCTAssertEqual(rotLeft(a: a, d: d), expectedOutput)
     }
 
 

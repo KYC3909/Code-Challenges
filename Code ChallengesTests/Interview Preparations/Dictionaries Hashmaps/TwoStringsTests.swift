@@ -22,31 +22,34 @@ class TwoStringsTests: XCTestCase {
         // This is an example of a functional test case.
         let a = "hello"
         let b = "world"
-        let expectedOutput = "Yes"
+        let expectedOutput = "YES"
         
         XCTAssertTrue(twoStrings(s1: a, s2: b) == expectedOutput)
         XCTAssertFalse(twoStrings(s1: a, s2: b) != expectedOutput)
+        XCTAssertEqual(twoStrings(s1: a, s2: b), expectedOutput)
     }
 
     func testCase2() throws {
         // This is an example of a functional test case.
         let a = "no"
         let b = "where"
-        let expectedOutput = "Yes"
+        let expectedOutput = "NO"
         
         XCTAssertTrue(twoStrings(s1: a, s2: b) == expectedOutput)
         XCTAssertFalse(twoStrings(s1: a, s2: b) != expectedOutput)
+        XCTAssertEqual(twoStrings(s1: a, s2: b), expectedOutput)
     }
 
-    func testCase3() throws {
-        // This is an example of a functional test case.
-        let d = 2
-        let a = [1 ,2 ,3 ,4,5]
-        let expectedOutput = [3, 4, 5, 1, 2]
-        
-        XCTAssertTrue(rotLeft(a: a, d: d) == expectedOutput)
-        XCTAssertFalse(rotLeft(a: a, d: d) != expectedOutput)
-    }
+//    func testCase3() throws {
+//        // This is an example of a functional test case.
+//        let d = 2
+//        let a = [1 ,2 ,3 ,4,5]
+//        let expectedOutput = [3, 4, 5, 1, 2]
+//
+//        XCTAssertTrue(rotLeft(a: a, d: d) == expectedOutput)
+//        XCTAssertFalse(rotLeft(a: a, d: d) != expectedOutput)
+//        XCTAssertEqual(twoStrings(s1: a, s2: b), expectedOutput)
+//    }
 
 
 

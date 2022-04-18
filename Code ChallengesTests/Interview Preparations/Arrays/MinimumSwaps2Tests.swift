@@ -25,6 +25,7 @@ class MinimumSwaps2Tests: XCTestCase {
         
         XCTAssertTrue(minimumSwaps(a: a) == expectedOutput)
         XCTAssertFalse(minimumSwaps(a: a) != expectedOutput)
+        XCTAssertEqual(minimumSwaps(a: a), expectedOutput)
     }
 
     func testCase2() throws {
@@ -34,6 +35,7 @@ class MinimumSwaps2Tests: XCTestCase {
         
         XCTAssertTrue(minimumSwaps(a: a) == expectedOutput)
         XCTAssertFalse(minimumSwaps(a: a) != expectedOutput)
+        XCTAssertEqual(minimumSwaps(a: a), expectedOutput)
     }
 
     func testCase3() throws {
@@ -43,6 +45,7 @@ class MinimumSwaps2Tests: XCTestCase {
         
         XCTAssertTrue(minimumSwaps(a: a) == expectedOutput)
         XCTAssertFalse(minimumSwaps(a: a) != expectedOutput)
+        XCTAssertEqual(minimumSwaps(a: a), expectedOutput)
     }
 
 

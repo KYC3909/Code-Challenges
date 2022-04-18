@@ -24,6 +24,7 @@ class JumpingOnCloudsTests: XCTestCase {
         
         XCTAssertTrue(jumpingOnClouds(c: c) == expectedOutput)
         XCTAssertFalse(jumpingOnClouds(c: c) != expectedOutput)
+        XCTAssertEqual(jumpingOnClouds(c: c), expectedOutput)
     }
 
     func testCase2() throws {
@@ -32,6 +33,7 @@ class JumpingOnCloudsTests: XCTestCase {
         
         XCTAssertTrue(jumpingOnClouds(c: c) == expectedOutput)
         XCTAssertFalse(jumpingOnClouds(c: c) != expectedOutput)
+        XCTAssertEqual(jumpingOnClouds(c: c), expectedOutput)
     }
 
     func testCase3() throws {
@@ -40,6 +42,7 @@ class JumpingOnCloudsTests: XCTestCase {
         
         XCTAssertTrue(jumpingOnClouds(c: c) == expectedOutput)
         XCTAssertFalse(jumpingOnClouds(c: c) != expectedOutput)
+        XCTAssertEqual(jumpingOnClouds(c: c), expectedOutput)
     }
 
     func testCase4() throws {
@@ -48,6 +51,7 @@ class JumpingOnCloudsTests: XCTestCase {
         
         XCTAssertTrue(jumpingOnClouds(c: c) == expectedOutput)
         XCTAssertFalse(jumpingOnClouds(c: c) != expectedOutput)
+        XCTAssertEqual(jumpingOnClouds(c: c), expectedOutput)
     }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
